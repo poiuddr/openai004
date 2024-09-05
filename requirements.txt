@@ -1,3 +1,4 @@
 streamlit
-opencv-python-headless
-pillow
+llama-index
+llama-index-experimental
+numpy
