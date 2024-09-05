@@ -35,7 +35,7 @@ df = pd.DataFrame(
         ["handcuff", "costume"],
         ["free underwear", "eye mask"],
         ["handcuff", "eye mask"]
-      ]
+      ],
       "favorite play": ["3p", "bondage", "titsfuck"],
       "working days": [
           ["monday", "tuesday", "wednesday"],
