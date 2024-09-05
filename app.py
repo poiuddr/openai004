@@ -12,7 +12,7 @@ st.markdown('質問の種類：年齢、バスト、3サイズ、プレー、オ
 
 df = pd.DataFrame(
   data = {
-    "girl" {
+    "girl": {
       "girl name": ["山田はなこ", "田中あい", "佐藤さき"],
       "age" :  [23, 21, 25],
       "bust" :  ["80cm", "90cm", "100cm"],
@@ -50,7 +50,7 @@ df = pd.DataFrame(
       "shop": ["shinuku", "ikebukuro", "gotanda"]
       }
   },
-  "course": {
+  "courses": {
     "VIP S": "20,000yen/60min, 29,000yen/90min, 38,000yen/120min",
     "VIP PREMIUM PEARL": "",
     "VIP PREMIUM RUBY": "",
