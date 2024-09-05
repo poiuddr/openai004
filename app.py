@@ -31,6 +31,11 @@ df = pd.DataFrame(
             ["VIP PREMIUM RUBY", "IMAGE S"],
             ["VIP S", "VIP PREMIUM SAPPHIRE"],
       ],
+      "available options": [
+        ["handcuff", "costume"],
+        ["free underwear", "eye mask"],
+        ["handcuff", "eye mask"]
+      ]
       "favorite play": ["3p", "bondage", "titsfuck"],
       "working days": [
           ["monday", "tuesday", "wednesday"],
