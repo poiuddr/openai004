@@ -1,6 +1,6 @@
 import streamlit as st
 import os
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
 import pandas as pd
 from llama_index.experimental.query_engine import PandasQueryEngine
 
