@@ -48,7 +48,7 @@ df = pd.DataFrame(
       ],
       "recommended girl": [True, False, False],
       "shop": ["shinuku", "ikebukuro", "gotanda"]
-      }
+      
   },
   "courses": {
     "VIP S": "20,000yen/60min, 29,000yen/90min, 38,000yen/120min",
