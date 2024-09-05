@@ -25,7 +25,7 @@ df = pd.DataFrame(
             ["blowjob", "bondage", "vibration", "3p", "titsfuck"],
       ],
       "currently working": ["no", "yes", "no"],
-      "english": ["yes", "no", "no"],
+      "english": ["speaking", "not speaking", "not speaking"],
       "course": [
             ["VIP S", "VIP PREMIUM PERL", "IMAGE S"],
             ["VIP PREMIUM RUBY", "IMAGE S"],
@@ -40,7 +40,7 @@ df = pd.DataFrame(
       "working hours": [
           "8:00-21:00", "21:00-24:00", "12:00-18:00",
       ],
-      "recommended": ["yes", "no", "no"],
+      "recommended": [true, false, false],
       "shop": ["shinuku", "ikebukuro", "gotanda"]
       }
 )
