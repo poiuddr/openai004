@@ -40,7 +40,7 @@ df = pd.DataFrame(
       "working hours": [
           "8:00-21:00", "21:00-24:00", "12:00-18:00",
       ],
-      "recommended": [true, false, false],
+      "recommended": [True, False, False],
       "shop": ["shinuku", "ikebukuro", "gotanda"]
       }
 )
