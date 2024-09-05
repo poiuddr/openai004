@@ -8,7 +8,7 @@ USER_NAME = "USER"
 ASSISTANT_NAME = "AI"
 
 st.markdown('### 山田はなこ 田中あい 佐藤さき、について質問ができます。')
-st.markdown('質問の種類：年齢、バスト、3サイズ、プレー、コース、出勤中、出勤曜日、おすすめ、英語可能か、好きなプレイ、おすすめ')
+st.markdown('質問の種類：年齢、バスト、3サイズ、プレー、オプション、コース、出勤中、出勤曜日、出勤時間、おすすめ、英語可能か、好きなプレイ、おすすめ')
 
 df = pd.DataFrame(
   data = {
@@ -31,7 +31,7 @@ df = pd.DataFrame(
             ["VIP PREMIUM RUBY", "IMAGE S"],
             ["VIP S", "VIP PREMIUM SAPPHIRE"],
       ],
-      "available options": [
+      "options": [
         ["handcuff", "costume"],
         ["free underwear", "eye mask"],
         ["handcuff", "eye mask"]
