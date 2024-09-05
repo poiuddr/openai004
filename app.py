@@ -12,6 +12,7 @@ st.markdown('質問の種類：年齢、バスト、3サイズ、プレー、オ
 
 df = pd.DataFrame(
   data = {
+    "girl" {
       "girl name": ["山田はなこ", "田中あい", "佐藤さき"],
       "age" :  [23, 21, 25],
       "bust" :  ["80cm", "90cm", "100cm"],
@@ -27,7 +28,7 @@ df = pd.DataFrame(
       "currently working": ["no", "yes", "no"],
       "english": ["speaking", "not speaking", "not speaking"],
       "course": [
-            ["VIP S", "VIP PREMIUM PERL", "IMAGE S"],
+            ["VIP S", "VIP PREMIUM PEARL", "IMAGE S"],
             ["VIP PREMIUM RUBY", "IMAGE S"],
             ["VIP S", "VIP PREMIUM SAPPHIRE"],
       ],
@@ -48,6 +49,14 @@ df = pd.DataFrame(
       "recommended girl": [True, False, False],
       "shop": ["shinuku", "ikebukuro", "gotanda"]
       }
+  },
+  "course": {
+    "VIP S": "20,000yen/60min, 29,000yen/90min, 38,000yen/120min",
+    "VIP PREMIUM PEARL": "",
+    "VIP PREMIUM RUBY": "",
+    "VIP PREMIUM SAPPHIRE": "",
+    "IMAGE S": "",
+  }
 )
 
 query_engine = PandasQueryEngine(df=df, verbose=True, synthesize_response=True)
