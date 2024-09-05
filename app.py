@@ -27,7 +27,7 @@ df = pd.DataFrame(
       ],
       "currently working": ["no", "yes", "no"],
       "english": ["speaking", "not speaking", "not speaking"],
-      "girl course": [
+      "course": [
             ["VIP S", "VIP PREMIUM PEARL", "IMAGE S"],
             ["VIP PREMIUM RUBY", "IMAGE S"],
             ["VIP S", "VIP PREMIUM SAPPHIRE"],
