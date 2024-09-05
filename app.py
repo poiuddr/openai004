@@ -32,10 +32,13 @@ df = pd.DataFrame(
             ["VIP S", "VIP PREMIUM SAPPHIRE"],
       ],
       "favorite play": ["3p", "bondage", "titsfuck"],
-      "work schedule": [
+      "working days": [
           ["monday", "tuesday", "wednesday"],
           ["thursday", "saturday", "sunday", "friday"],
           ["wednesday", "thursday", "friday"],
+      ],
+      "working hours": [
+          "8:00-21:00", "21:00-24:00", "12:00-18:00",
       ],
       "recommended": ["yes", "no", "no"],
       "shop": ["shinuku", "ikebukuro", "gotanda"]
