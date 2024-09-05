@@ -7,7 +7,7 @@ from llama_index.experimental.query_engine import PandasQueryEngine
 USER_NAME = "USER"
 ASSISTANT_NAME = "AI"
 
-st.markdown('### 山田はなこ 田中あい 佐藤さき、について質問ができます。')
+st.markdown('### 山田はなこ、 田中あい、 佐藤さき、について質問ができます。')
 st.markdown('質問の種類：年齢、バスト、3サイズ、プレー、オプション、コース、出勤中、出勤曜日、出勤時間、おすすめ、英語可能か、好きなプレイ、おすすめ、出勤している店')
 
 df = pd.DataFrame(
