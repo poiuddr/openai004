@@ -1,6 +1,6 @@
 import streamlit as st
 import os
-os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
+os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
 import pandas as pd
 from llama_index.experimental.query_engine import PandasQueryEngine
 
